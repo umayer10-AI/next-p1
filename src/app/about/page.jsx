@@ -1,6 +1,11 @@
 import UserCarts from '@/component/UserCarts';
 import React from 'react';
 
+export const metadata = {
+  title: 'About',
+  description: '...',
+}
+
 const About = async () => {
 
     const a = await fetch("https://jsonplaceholder.typicode.com/users")
